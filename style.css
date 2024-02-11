@@ -1,0 +1,175 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: whitesmoke;
+    color: white;
+    padding: 1em 0;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(246, 225, 176);
+}
+
+.logo span {
+    color: burlywood;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(246, 225, 176);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: burlywood; 
+}
+
+section {
+    margin-top: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.about-image {
+    margin-right: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.about-text {
+    text-align: left;
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.contact-form {
+    border-style: solid;
+    border-color: burlywood;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 2px solid beige;
+}
+
+.btn-primary {
+    background-color: burlywood;
+    border-color: burlywood;
+}
+
+.btn-primary:hover {
+    background-color: rgb(246, 225, 176);
+    border-color: beige;
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 30px;
+}
+
+.social{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: burlywood;
+}
+
+.social img {
+    max-width: 30px;
+    margin: 0 10px;
+}
+
+.social p{
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    padding: 50px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: burlywood;
+    border-radius: 50%;
+}
+
+.fa :hover{
+    color: rgb(242, 242, 196);
+    opacity: 1;
+}
+
+.skill {
+    border: 1px solid #343a40;
+    padding: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skills h3 {
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
